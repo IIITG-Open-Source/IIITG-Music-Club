@@ -1,1 +1,1 @@
-# IIITG-Music-Club
+# Music-Club
