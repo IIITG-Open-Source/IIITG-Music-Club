@@ -1,0 +1,123 @@
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+}
+#title {
+    background:url(../images/music.jpg) no-repeat;
+    background-size:cover;
+    height: 752px;
+    width: auto;
+}
+#about-us{
+    background-color: rgba(255, 255, 255, 0.849);
+    padding: 30px;
+}
+#events{
+    background-color: rgb(213, 175, 245);
+}
+#bands{
+    padding: 30px;
+    background-color: rgb(213, 175, 245);
+}
+.navbar li a{
+    color: #fff !important;
+}
+.navbar li a:hover{
+    color: #22B1A1 !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    padding: 0 13px;
+    font-size: 2rem;
+}
+.nav-logo{
+    height: 30px;
+    width: 30px;
+}
+.navbar-brand:hover{
+    color: #22B1A1 !important;
+}
+.navbar-contents{
+    padding: 0 13px;
+}
+.navbar{
+    background: transparent;
+}
+.h2-txt{
+    font-size: 3rem;
+}
+#gallery{
+    margin-bottom: 15%;
+}
+.gallery-carousel{
+    margin: 5% auto;
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    max-height: 500px;
+}
+.carousel-control-prev{
+    margin-top: 20%;
+    filter: invert(100%);
+}
+.carousel-control-next{
+    margin-top: 20%;
+    filter: invert(100%);
+}
+#contact{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+#footer {
+    background-color: rgb(122, 32, 107);
+    color: rgba(255, 255, 255, 0.5);
+    padding: 25px 0 15px 0;
+    text-align: center;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+.intro-text{
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 460px;
+    font-family: 'Dancing Script', cursive;
+}
+.intro-text-ele{
+    font-size: 4rem;
+}
+.solid {
+    background-color: rgb(122, 32, 107);
+    height: 0;
+    height: 60px;
+}
+.btn{
+    background-color: rgb(122, 32, 107) !important;
+    color: #fff !important;
+}
+.btn:hover{
+    background-color: rgb(157, 20, 236) !important;
+}
+.btn-filter{
+    color: rgb(122, 32, 107) !important;
+}
+.social-icons{
+    margin: 1.5%;
+    color: rgb(122, 32, 107);
+}
+.social-icons:hover{
+    color:  rgb(157, 20, 236);
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    } 
+    .navbar{
+        background-color: rgb(122, 32, 107);
+    }
+}
