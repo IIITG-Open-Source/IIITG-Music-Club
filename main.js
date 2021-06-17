@@ -6,6 +6,3 @@ $(window).scroll(function() {
         $('.navbar').removeClass('solid');
     }
 });
-$(function() {
-    $('.navbar-nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
